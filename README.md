@@ -38,7 +38,6 @@ NLTK provides two primary useful tools for this: a part-of-speech tagger and a t
 In order to run this program, just run [`console.py`].
 
 ## Tasks
-*This section is the most important because it gives us a sense of the scope of your project and forces you to think about the deliverables to which you'll hold yourself.*
 
 1. Authenticate the Twitter API
 2. Get all the tweets
@@ -53,7 +52,6 @@ In order to run this program, just run [`console.py`].
 
 
 ## Resources
-*This section is smaller and less vital than the others. If you're not using any external resources, you can leave this blank.*
 
 The timeline of Donaldinho.
 
