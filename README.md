@@ -18,9 +18,6 @@ This project is inspired large-in-part from CS106B's Serafini assignment, from w
 
 ## Implementation Strategy
 
-
-At a high-level, how do you plan to implement your project? How does it incorporate Python?
-
 At a high level, there are four tasks: First, we have to grab el Presidente's tweets. Then, we have to build a 3-gram map from those tweets. Third, we will create a "tweet" from that map. Lastly, we swap out a word of identical part of speech for the word the user inputted.
 
 A few packages will be essential. First and foremost, the Twitter API will be necessary in order to grab Cristiano Donaldo's axioms. Next, NLTK's excellent NLP modules will be essential in both gathering tri-grams and tagging parts of speech. I will compartmentalize the program into three parts: a console for user I/O, a file that contains all the Twitter processing, and a file containing all methods necessary for the NLP portions of the program.
@@ -33,7 +30,7 @@ Tweet generation presents some interesting dilemnas. The 140 character limit sho
 
 NLTK provides two primary useful tools for this: a part-of-speech tagger and a tri-gram generator. The tri-gram generator immediately generates all tri-grams for a body of text, making the map generation infinitely easier. The part-of-speech tagger is necessary for inserting our desired word in a way that is likely to make sense. 
 
-##Execution
+## Execution
 
 In order to run this program, just run [`console.py`].
 
@@ -55,6 +52,6 @@ In order to run this program, just run [`console.py`].
 
 The timeline of Donaldinho.
 
-##Credits and Acknowledgements
+## Credits and Acknowledgements
 
 Much thanks to Sam Redmond and the TA's for CS41 for such a great quarter. Also thanks to Chris Piech and Chris Gregg for the implementation inspiration from 106B. 
