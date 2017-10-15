@@ -13,11 +13,7 @@ Grabs the Donald's Tweets, using Twitter's API.
 
 import twitter
 
-_api = twitter.Api(
-    consumer_key="HK9Tti2mekfv2BnL7SjPZ4T8q",
-    consumer_secret="WVffQqLJKdRip6tlP8NgMPPNUqPhbgHtt2Ura6jdZqJKpk1xVr",
-    access_token_key="1093986444-WGoQBpUWLhGBAR7ENmYkJMR4VQVRRM6joitktoh",
-    access_token_secret="FKGqSoNwKmlcfaZ4jxRwj1OIsrTFJ6yGKsGhzQL6aZSMJ")  # private
+_api #put api here
 
 
 def get_tweets():
